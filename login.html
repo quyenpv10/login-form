@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="forms">
+            <!--form signin-->
+            <div class="form signin">
+                <h3 class="title">Sign In</h3>
+                <form action="#">
+                    <label for="email" class="label">Your Email</label>
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your email" required id="email">
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <label for="password" class="label">Password</label>
+                    <div class="input-field">
+                        <input class="password" type="password" placeholder="Password" required id="password">
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+                    <div class="checkbox-text">
+                        <div class="check-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">Remember me</label>
+                        </div>
+                        <a href="#" class="text">Forgot password?</a>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="Sign in">
+                    </div>
+                    <p style="margin-top: 16px;text-align: center;color: #93b9d9;">Or</p>
+                    <div class="social-signin">
+                        <div class="facebook">
+                            <i class="uil uil-facebook"></i>
+                            <span>Facebook</span>
+                        </div>
+                        <div class="google">
+                            <i class="uil uil-google"></i>
+                            <span>Google</span>
+                        </div>
+                    </div>
+                    <div class="login-signup">
+                        <span class="text">Don't have an account?
+                             <a href="#" class="text signup-link">Sign up</a>
+                        </span>
+                    </div>
+                </form>
+            </div>
+            <!--form signin-->
+
+            <!--Form sign up-->
+            <div class="form signup">
+                <h3 class="title">Sign up</h3>
+                <form action="#">
+
+                    <label for="fullname" class="label">FullName</label>
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your fullname" required id="fullname">
+                        <i class="uil uil-user icon"></i>
+                    </div>
+                    <label for="email" class="label">Your Email</label>
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your email" required id="email">
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+
+                    <label for="password" class="label">Password</label>
+                    <div class="input-field">
+                        <input type="password" placeholder="Password" required id="password" class="password">
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+                    <div class="checkbox-text checkbox-accept">
+                        <div class="check-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">I Accept</label>
+                        </div>
+                        <a href="#" class="text">Terms And Condition</a>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="Register">
+                    </div>
+                    <p style="margin-top: 16px;text-align: center;color: #93b9d9;">Or</p>
+                    <div class="social-signin">
+                        <div class="facebook">
+                            <i class="uil uil-facebook"></i>
+                            <span>Facebook</span>
+                        </div>
+                        <div class="google">
+                            <i class="uil uil-google"></i>
+                            <span>Google</span>
+                        </div>
+                    </div>
+                    <div class="login-signup">
+                        <span class="text">Already have an account
+                             <a href="#" class="text signin-link">Sign in</a>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--Form sign up-->
+    </div>
+
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
